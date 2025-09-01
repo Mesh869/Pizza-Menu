@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+.header h1::before,
+.header h1::after {
+  content: "";
+  display: block;
+  height: 3px;
+  background: #edc84b;
+  margin: 1rem 0;
+  top: calc(50% - 1.5px);
+}

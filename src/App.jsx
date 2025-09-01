@@ -1,22 +1,18 @@
 import React from "react";
 import "./App.css";
+import Menu from "./components/Menu.jsx";
+import Header from "./components/Header.jsx";
+import Footer from "./components/Footer.jsx";
 
 function App() {
   return (
     <>
       <div>
-        <h1>Hello world</h1>
-        <Pizza />
+        <Header />
+        <Menu />
+        <Footer />
       </div>
     </>
-  );
-}
-
-function Pizza() {
-  return (
-    <div>
-      <h2>Pizza Menu</h2>
-    </div>
   );
 }
 
